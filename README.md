@@ -16,7 +16,7 @@ This command would create a file called "tweets.txt" and will continuously keep 
 # Format of "tweets.txt":
 This is the format in which the text file gets generated:
 
-<TweetNumber>	<userName>	<Tweet>	<Timestamp>	<countryName>	<placeName>	<geoLocation>	<sentimentValue>
+"<TweetNumber>	<userName>	<Tweet>	<Timestamp>	<countryName>	<placeName>	<geoLocation>	<sentimentValue>"
 
 # SCALA CODE:
 - runCode.scala contains the scala code that can be run via the following command:
