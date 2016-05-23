@@ -8,6 +8,7 @@ Predicting US Elections from Twitter Feeds by employing a big data solution usin
 
 # How To Execute:
 - Run the following command on the terminal:
+
 java -cp "electionus-jar-with-dependencies.jar;stanford-english-corenlp-2016-01-10-models.jar" com.utd.bigdata.electionus.GetTweets
 
 This command would create a file called "tweets.txt" and will continuously keep on appending to it, the new tweets as they arrive.
