@@ -14,6 +14,7 @@ java -cp "electionus-jar-with-dependencies.jar;stanford-english-corenlp-2016-01-
 This command would create a file called "tweets.txt" and will continuously keep on appending to it, the new tweets as they arrive.
 
 # Format of "tweets.txt":
+This is the format in which the text file gets generated:
 
 <TweetNumber>	<userName>	<Tweet>	<Timestamp>	<countryName>	<placeName>	<geoLocation>	<sentimentValue>
 
