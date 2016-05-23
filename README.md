@@ -16,10 +16,11 @@ This command would create a file called "tweets.txt" and will continuously keep 
 # Format of "tweets.txt":
 This is the format in which the text file gets generated:
 
-"<TweetNumber>	<userName>	<Tweet>	<Timestamp>	<countryName>	<placeName>	<geoLocation>	<sentimentValue>"
+"TweetNumber	userName	Tweet	Timestamp	countryName	placeName	geoLocation	sentimentValue"
 
 # SCALA CODE:
 - runCode.scala contains the scala code that can be run via the following command:
+
 spark-shell -i runCode.scala --master local[1]
 
 Note: The scala code can also be run with more nodes in local mode or it can also be run in yarn mode
@@ -27,8 +28,10 @@ Note: The scala code can also be run with more nodes in local mode or it can als
 - The runCode.scala creates a file called "merge" in HDFS. Use the bash script, fetchFile.sh, to get the file to localhost and compile the output present in the "merge" folder into a single file called "output.txt", which can be directly used as input to Tableau for graphical representation of the result
 
 - How to run the bash script in terminal:
+
 ./fetchFile.sh
 
 Note:
 Do not forget to make the script executable by using the following command:
+
 chmod +x fetchFile.sh OR chmod 755 fetchFile.sh
